@@ -1,0 +1,57 @@
+.containerGeral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/imagens/fundocarro.png);
+}
+
+.containerInput {
+    height: 340px;
+    background: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.containerInput form {
+    width: 260px;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input1 {
+    margin-top: 30px;
+    height: 33px;
+    width: 214px;
+    border-radius: 7px;
+    background: var(--gray-500);
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 5.51162px 8.34398px 0px rgba(222, 213, 213, 0.15), 3.57235px 5.40814px 0px rgba(222, 213, 213, 0.113889), 2.123px 3.21398px 0px rgba(222, 213, 213, 0.0911111), 1.10232px 1.6688px 0px rgba(222, 213, 213, 0.075), 0.449095px 0.67988px 0px rgba(222, 213, 213, 0.0588889), 0.102067px 0.154518px 0px rgba(222, 213, 213, 0.0361111);
+    ;
+    outline: 0;
+    color: var(--white);
+}
+
+.containerInput button {
+    margin-top: 20px;
+    width: 123px;
+    height: 40px;
+    background: var(--laranja);
+    border: none;
+    box-shadow: 5.51162px 8.34398px 0px rgba(222, 213, 213, 0.15), 3.57235px 5.40814px 0px rgba(222, 213, 213, 0.113889), 2.123px 3.21398px 0px rgba(222, 213, 213, 0.0911111), 1.10232px 1.6688px 0px rgba(222, 213, 213, 0.075), 0.449095px 0.67988px 0px rgba(222, 213, 213, 0.0588889), 0.102067px 0.154518px 0px rgba(222, 213, 213, 0.0361111);
+    ;
+    border-radius: 10px;
+}
+
+.containerInput img {
+    height: 100px;
+    width: 120px;
+    
+    
+    
+}
