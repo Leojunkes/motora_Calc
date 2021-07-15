@@ -1,0 +1,22 @@
+.containerHeader{
+    height:4rem;
+    background: var(--gray-500);
+    display: flex;
+    justify-content: center;
+    
+} 
+.textHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    height:12rem;
+    background: var(--black);
+    color: var(--gray-50);
+    margin-top:30px;
+    border-radius: 8px;
+    font-family: 'Questrial', sans-serif;
+}
+.textHeader h3{
+    margin-left: 6px;
+}
