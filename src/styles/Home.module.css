@@ -65,12 +65,18 @@
 }
 .totalContainer {
   width: 247px;
-  height: 120px;
+  height: 135px;
   background-color: var(--green);
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 10rem;
   margin-left: -13px;
   border-radius: 4px;
+}
+.totalContainer label{
+  margin-left: 13px;
 }
 @media (max-width: 440px) {
   .containerGeral {

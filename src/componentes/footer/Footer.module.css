@@ -1,0 +1,8 @@
+.cointainerFooter{
+    height:30px;
+    background:#495057 ;
+    color: var(--gray-50);
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+}
