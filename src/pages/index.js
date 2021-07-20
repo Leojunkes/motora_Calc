@@ -35,20 +35,31 @@ function Home() {
           <input
             onChange={(e) => setClientetotal(e.target.value)}
             className={styles.input1}
-            type="numeric"
-            placeholder="R$"
+            type="number"
+            placeholder="R$ valor cliente"
+            pattern="[0-9]+([,\.][0-9]+)?"
+            min="0"
+            step="any"
+            inputMode="numeric"
           />
 
           {/* <label style={{marginLeft:10}}>Teus ganhos</label> */}
           <input
             onChange={(e) => setValorfinal(e.target.value)}
             className={styles.input1}
-            type="numeric"
-            placeholder="R$"
+            type="number"
+            placeholder="R$ teu valor"
+            pattern="[0-9]+([,\.][0-9]+)?"
+            min="0"
+            step="any"
           />
 
           <button type="submit">Calcular</button>
-          <input type="reset" value="limpar" />
+          <input
+            className={styles.inputLimpar}
+            type="reset"
+            value="Limpar Valores"
+          />
         </form>
       </div>
       <div className={styles.totalContainer}>

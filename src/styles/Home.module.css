@@ -7,12 +7,13 @@
 }
 
 .containerInput {
-  height: 340px;
+  height: 425px;
   background: var(--gray-800);
   color: var(--white);
   display: flex;
   justify-content: center;
   border-radius: 8px;
+  margin-top:-10px
 }
 
 .containerInput form {
@@ -26,7 +27,7 @@
 .input1 {
   margin-top: 30px;
   height: 33px;
-  width: 214px;
+  width: 235px;
   border-radius: 7px;
   background: var(--gray-500);
   border: none;
@@ -77,6 +78,22 @@
 }
 .totalContainer label{
   margin-left: 13px;
+
+}
+.inputLimpar{
+  margin-top: 8px;
+  width: 125px;
+  height: 32px;
+  background: var(--red);
+  color: var(--gray-50);
+  border: none;
+  box-shadow: 5.51162px 8.34398px 0px rgba(222, 213, 213, 0.15),
+    3.57235px 5.40814px 0px rgba(222, 213, 213, 0.113889),
+    2.123px 3.21398px 0px rgba(222, 213, 213, 0.0911111),
+    1.10232px 1.6688px 0px rgba(222, 213, 213, 0.075),
+    0.449095px 0.67988px 0px rgba(222, 213, 213, 0.0588889),
+    0.102067px 0.154518px 0px rgba(222, 213, 213, 0.0361111);
+  border-radius: 10px;
 }
 @media (max-width: 440px) {
   .containerGeral {
@@ -89,6 +106,7 @@
     margin-bottom: -180px;
   }
   .totalContainer {
-    margin-top: 200px;
+    margin-top: 175px;
+    margin-left: 2.8px;
   }
 }
