@@ -8,7 +8,7 @@ Este é um projeto criado com React-js, Next-js, estilos com CSS e feito deploy 
 
 Criado para ser mais utilizado em dispositivos móveis.
 
-# Calculadora Calculadora
+# Calculadora
 
 
 
