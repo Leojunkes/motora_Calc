@@ -20,9 +20,31 @@ function Home() {
     e.preventDefault();
     const meuValor = ((clienteTotal - valorFinal) / clienteTotal) * 100;
     const resultado = meuValor;
+
+    if (resultado > 25) {
+      alert('opa')
+    }
+
     //setTheme(theme.title === 'light' ? redDark : light);
     setResultado(resultado);
   }
+  const resultsvm = (
+    <div className={styles.totalContainerVm}>
+      <label htmlFor="">
+        Esses {resultado.toFixed(2)} % cobrados estão muito altos, passando dos 25%.
+      </label>
+      <h1>{resultado.toFixed(2)} %</h1>
+    </div>
+  );
+  const resultsvd = (
+    <div className={styles.totalContainer}>
+      <label htmlFor="">
+        Esses {resultado.toFixed(2)} % corresponde ao valor cobrado pela Uber
+        e/ou outros
+      </label>
+      <h1>{resultado.toFixed(2)} %</h1>
+    </div>
+  );
 
   return (
     //<ThemeProvider theme={theme}>
@@ -62,13 +84,8 @@ function Home() {
           />
         </form>
       </div>
-      <div className={styles.totalContainer}>
-        <label htmlFor="">
-          Esses {resultado.toFixed(2)} % corresponde ao valor cobrado pela Uber
-          e/ou outros
-        </label>
-        <h1>{resultado.toFixed(2)} %</h1>
-      </div>
+      
+      {resultado > 25 ?resultsvm:resultsvd}
       <AiFillCar style={{ fontSize: 80, color: 'var(--blue)' }} />
     </div>
     //</ThemeProvider>

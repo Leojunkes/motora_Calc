@@ -81,6 +81,22 @@
   margin-left: 13px;
 
 }
+.totalContainerVm{
+  width: 247px;
+  height: 135px;
+  background-color:var(--red);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12rem;
+  margin-left: -1px;
+  border-radius: 4px;
+  color:var(--gray-900)
+}
+.totalContainerVm label{
+  margin-left: 13px;
+}
 .inputLimpar{
   margin-top: 8px;
   width: 125px;
