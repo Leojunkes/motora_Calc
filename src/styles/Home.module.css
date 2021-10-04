@@ -4,7 +4,7 @@
   background: #8e8e8e;
   background-image:url('/imagens/fundoMc.png');
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .containerInput {
