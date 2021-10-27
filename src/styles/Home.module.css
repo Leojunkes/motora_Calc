@@ -5,6 +5,7 @@
   background-image:url('/imagens/fundoMc.png');
   align-items: center;
   min-height: 100vh;
+  padding-bottom: 20px;
 }
 
 .containerInput {
